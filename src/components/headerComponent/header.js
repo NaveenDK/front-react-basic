@@ -11,7 +11,7 @@ class Header extends Component {
             </div>
             <nav>
                 <ul>
-                    <li>
+                    <li className="first">
                        <a href='#'>
                        Home
                        </a> 
@@ -21,7 +21,7 @@ class Header extends Component {
                        Products
                        </a> 
                     </li>
-                    <li>
+                    <li className="last">
                        <a href='#'>
                        Contact
                                              </a> 
