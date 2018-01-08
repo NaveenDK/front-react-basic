@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 //import  './Assets/css/defaultmin.css';
+import {
+    Link
+} from 'react-router-dom'; 
 
 
 class Header extends Component {
@@ -12,19 +15,15 @@ class Header extends Component {
             <nav>
                 <ul>
                     <li className="first">
-                       <a href='#'>
-                       Home
-                       </a> 
+                    <Link to="/">Home</Link>
+                       
                     </li>
                     <li>
-                       <a href='#'>
-                       Products
-                       </a> 
+                    <Link to="/Products">Products</Link>
+                     
                     </li>
                     <li className="last">
-                       <a href='#'>
-                       Contact
-                                             </a> 
+                    <Link to="/">Contact</Link>
                     </li>
 
                 </ul>
